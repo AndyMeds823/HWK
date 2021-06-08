@@ -5,8 +5,6 @@ int connectionId;
 String type;
 int planType;
 
-public Customer() {}
-
 public Customer(String userName, int connectionId,String type,int planType ) {
 	this.userName= userName;
 	this.connectionId= connectionId;
